@@ -44,34 +44,34 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/about-me'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                About Me
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Projects
               </Link>
             </li>
 
             <li>
               <Link
-                to='/sign-up'
+                to='/contact'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact Me
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'><ion-icon name="mail-outline"></ion-icon></Button>}
         </div>
       </nav>
     </>

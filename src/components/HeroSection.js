@@ -9,24 +9,24 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/Rushing_Water.mov' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>Kyle Kallman</h1>
+      <p>software engineer</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          Contact Me
         </Button>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
           WATCH TRAILER
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
