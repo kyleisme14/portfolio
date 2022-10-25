@@ -1,22 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Contact.css'
 import {useForm} from 'react-hook-form';
 
-function ContactForm() {
-  const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = data => console.log(data);
+const ContactForm = () => {
+  const form = useRef()
+
+  const sendEmail = () => {};
+
   return (
     <>
-      <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
-        <input type='text' name='user_name' placeholder='Name' />
+    <div className='contact-form'>
+      <h3>Contact Me</h3>
+      <form ref={form} onSubmit={sendEmail}>
+        <input className='form-item' type='text' name='user_name' placeholder='Name' required/>
         <br/>
-        <input type='email' name='user_email' placeholder='Email' />
+        <input className='form-item' type='email' name='user_email' placeholder='Email' required/>
         <br/>
-        <textarea name='message' placeholder='Message'/>
+        <textarea className='form-item' name='message' placeholder='Message'/>
         <br/>
-        <input type='submit' value='Send' />
+        <input className="button" type='submit' value='Send' />
       </form>
-
+    </div>
     </>
   )
 }
