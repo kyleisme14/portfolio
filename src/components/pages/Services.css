@@ -1,0 +1,10 @@
+.about-grid{
+    display: flex;
+    flex-flow: column;
+
+}
+
+.about-item{
+    margin: 3%;
+
+}

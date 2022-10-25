@@ -11,17 +11,17 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='/photos/blueclwon.png'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              text='ScreenShare - A video sharing youtube clone built using Django and Python.'
+              label='WEBSITE'
               path='/services'
             />
            
             <CardItem
-              src='/photos/pillars.webp'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
+              src='/photos/vellaapp.png'
+              text='Vella - IOS and Android app, that tracks personality data to offer specified motivations'
+              label='App'
+              href='https://www.thevellaapp.com/' 
+                         />
             <CardItem
               src='/photos/fakespace.png'
               text='Travel through the Islands of Bali in a Private Cruise'
