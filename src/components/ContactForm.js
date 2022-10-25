@@ -1,11 +1,26 @@
 import React, { useRef } from 'react'
 import './Contact.css'
 import {useForm} from 'react-hook-form';
+import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
+
 
 const ContactForm = () => {
   const form = useRef()
 
-  const sendEmail = () => {};
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_rxx8xlf', 'template_fveztoj', form.current, 'iPL2mNzQK9BHevpgy')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+
+
 
   return (
     <>

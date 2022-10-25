@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+    font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   }
 
 
@@ -35,10 +37,9 @@ h3 {
 .contact-form {
   background-color: aqua;
   margin: auto;
-  padding-left: 25%;
+  padding-left: 9%;
   padding-top: 5%;
   padding-bottom: 5%;
-  text-align: left;
 
 }
 
@@ -53,7 +54,6 @@ h3 {
   font-weight:300;
   color:#FFFFFF;
   background-color:#4eb5f1;
-  text-align:center;
   transition: all 0.2s;
 }
 .button:hover{
