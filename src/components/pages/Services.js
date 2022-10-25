@@ -1,6 +1,7 @@
 import React from "react";
 import '../../App.css';
 import Canvas from '../Canvas';
+import ContactForm from '../ContactForm';
 import './Services.css'
   
 
@@ -30,7 +31,7 @@ export default function Services(){
                     <div className="about-item"><h3> I also write books and tv! But we can talk about that elsewhere</h3></div>
                 </div>
             </div>
-            <Canvas/>
+            <ContactForm />
         </div>
     </>;
 
