@@ -39,7 +39,7 @@ h3 {
   width: 80%;
   padding-top: 5%;
   padding-bottom: 5%;
-
+  display: flex;
 }
 ion-icon {
   color: white;
