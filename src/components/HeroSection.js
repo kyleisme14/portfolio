@@ -4,6 +4,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 import './HeroSection.css';
+import FactApi from './FactApi';
 
 function HeroSection() {
   return (

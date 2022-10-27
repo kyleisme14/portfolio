@@ -3,7 +3,10 @@
     flex-flow: column;
 
 }
-
+.icon {
+    color: blue;
+  }
+  
 .about-item{
     margin: 3%;
     width: 65%;

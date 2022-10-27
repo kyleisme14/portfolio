@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cards.css';
+import FactApi from './FactApi';
 import CardItem from './CardItem';
 
 function Cards() {
@@ -9,22 +10,21 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
-              src='/photos/screenfair.png'
-              text='ScreenShare - A video sharing youtube clone built using Django and Python.'
-              label='WEBSITE'
-              path='/services/1'
-            />
-           
-            <CardItem
+          <CardItem
               src='/photos/vellaapp.png'
               text='Vella - IOS and Android app, that tracks personality data to offer specified motivations'
               label='Freelance'
-              path='/services/2'
+              path='/services/1'
                          />
             <CardItem
+              src='/photos/videosharing.jpg'
+              text='ScreenShare - A video sharing youtube clone built using Django and Python.'
+              label='WEBSITE'
+              path='/services/2'
+            />
+            <CardItem
               src='/photos/ghostphoto.png'
-              text='Ghost-Fighter - '
+              text='Ghost-Fighter - Point and Click game built in javascript. Get as many ghosts as you can!'
               label='Game'
               path='/services/3'
             />
@@ -55,6 +55,8 @@ function Cards() {
               path='/services'
             />
           </ul>
+          <FactApi/>
+
         </div>
       </div>
     </div>
