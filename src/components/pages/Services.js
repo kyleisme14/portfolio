@@ -10,7 +10,6 @@ export default function Services(){
     return <>
      <div>
         <AboutMeCards/>
-        <ContactForm />
         </div>
     </>;
 

@@ -11,7 +11,7 @@ function AboutMeCards() {
                         With 8 years of work experience, plus complex hobbyist technical experience building computers
                          for gaming, <b>virtual production</b>, creating <b>VR/AR</b>, and developing websites for friends.</div>
             </div>
-            <div className='aboutme__items'>
+            <div className='aboutme__items2'>
                     <h3>coding skills</h3>
                     <div> <b>Frontend:</b> <ion-icon size="small" color="black" className="icon" name="logo-react"></ion-icon> React 
                     <ion-icon size="small" color="black" className="icon" name="logo-html5"></ion-icon> HTML5
@@ -32,32 +32,19 @@ function AboutMeCards() {
                     <div><b>Language:</b> <ion-icon size="small" color="black" name="mic-outline"></ion-icon> Fluent Spanish</div> 
             </div>
 
-      
-      </div>
-      <div className='aboutme-container'>
+  
 
-          <div className='aboutme__items1'>
-            <h3>content production</h3>
+          <div className='aboutme__items3'>
+            <h3>about me: content producer</h3>
             <div>
-               5 years at <b>Sony Television</b>.
-            </div>
-            <div>Podcasts, comedy show, short films. </div>
-              <div>
-            <b>XR Alliance</b> Best writing in VR           </div>
-           </div>
-          <div className='aboutme__items2'>
-            <h3>about me: writer</h3>
-            <div> Immersive storyteller and technical polymath. Brand builder, copywriter and creative developer. Story editor and novelist.</div>
-            </div>
-            <div className='aboutme__items3'>
-                    <h3>interests</h3>
-            <div> Nature, <b>Memes,</b> Science Fiction, Gardening, Astronomy, <b>Shakespeare,</b> <b>Ghosts,</b> and Donuts.</div>
-
+              5 years at <b>Sony Television</b> working in production and development. 15 years of producing plays, podcasts, comedy shows, and award winning <b>short films</b>. 
+         In 2018 I won the <b>XR Alliance</b> for Best Writing in VR. I am excited about old and new forms of media. Freelance work as brand builder, copywriter, story editor and creative developer. <b>Novelist</b> in my freetime.        
+           </div> 
+          </div>
+ 
          </div>
 
       
-      </div>
-
     </div>
   )
 }

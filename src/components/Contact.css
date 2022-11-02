@@ -9,9 +9,10 @@
 }
 input {
   width: 45vh;
+  height: 5vh;
 }
 textarea {
-  height: 10em;
+  height: 15vh;
   width: 45vh;
 }
 
