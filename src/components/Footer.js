@@ -25,29 +25,20 @@ function Footer() {
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
                     <h2> Coding </h2>
-                    <Link to='/services'>Projects</Link>
-                    <Link to='/'>Hire Me</Link>
-                    <Link to='/'>Skills</Link>
+                    <Link to='/projects'>Projects</Link>
+                    <Link to='/contact'>Hire Me</Link>
+                    <Link to='/about-me'>Skills</Link>
                 </div>
-                <div className='footer-link-items'>
+                {/* <div className='footer-link-items'>
                     <h2> Creative</h2>
                     <Link to='/products'>Consulting</Link>
                     <Link to='/'>Book</Link>
                     <Link to='/'>Movies</Link>
-                </div>
+                </div> */}
                 <div className='footer-link-items'>
                     <h2> Contact Me</h2>
-                    <Link to='/sign-up'>Subscribe</Link>
-                    <Link to='/'>Freelance Gigs</Link>
-                    <Link to='/'>Events</Link>
-                </div>
-            </div>
-            <div className='footer-link-wrapper'>
-                <div className='footer-link-items'>
-                    <h2> Socials </h2>
-                    <Link to='/'>Linkedin</Link>
-                    <Link to='/'>Instagram</Link>
-                    <Link to='/'>TikTok</Link>
+                    <a href='https://www.linkedin.com/in/kylekallman/'>Linkedin</a>
+                    <a href="https://www.instagram.com/kyleismeme/">Instagram</a>
                 </div>
             </div>
         </div>
@@ -60,9 +51,9 @@ function Footer() {
                 </div>
                 <small className='website-rights'> kyle © 2022</small>
                 <div className="social-icons">
-                <Link to="/" className="social-logo">
+                <a href="https://www.instagram.com/kyleismeme/" className="social-logo">
                 <ion-icon name="logo-instagram"></ion-icon>
-                </Link>
+                </a>
                 
                 </div>
             </div>
