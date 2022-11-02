@@ -11,7 +11,7 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/Rushing_Water.mov' autoPlay loop muted />
       <h1>Kyle Kallman</h1>
-      <p>software engineer</p>
+      <p>software engineer | content producer</p>
       <div className='hero-btns'>
         <Button
           className='btns'

@@ -30,7 +30,7 @@ const ContactForm = () => {
   return (
     <>
     <div className='contact-form'>
-      
+      <div className='contact-box'>
       <form ref={form} onSubmit={sendEmail}>
         <h3>Contact Me</h3>
         <input className='form-item' type='text' name='user_name' placeholder='Name' required/>
@@ -43,7 +43,7 @@ const ContactForm = () => {
           <input className="button" type='submit' value='Send'></input>
         </div>
       </form>
-    </div>
+    </div></div>
     </>
   )
 }
