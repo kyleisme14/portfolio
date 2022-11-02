@@ -1,6 +1,5 @@
 import React from 'react';
 import './Cards.css';
-import FactApi from './FactApi';
 import CardItem from './CardItem';
 
 function Cards() {
@@ -32,7 +31,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='/photos/blueclwon.png'
-              text='I like doing creative stuff with my fre time. I trained as a clown and wrote a novel.'
+              text='I like doing creative stuff with my free time. I trained as a clown and wrote a novel.'
               label='Hobby'
               path='/services/4'
             />
@@ -55,7 +54,6 @@ function Cards() {
               path='/services'
             />
           </ul>
-          <FactApi/>
 
         </div>
       </div>

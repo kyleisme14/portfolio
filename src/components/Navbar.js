@@ -31,7 +31,7 @@ function Navbar() {
 
           <Link to="/" className="navbar-logo">
                     KYLE<ion-icon name="happy-outline" className='happy-outline'></ion-icon>
-                    KALLMAN</Link>
+                    </Link>
 
                 <div className='menu-icon' onClick={handleClick}>
                     <ion-icon name={click ? "skull-outline" : "menu-outline"}></ion-icon>
